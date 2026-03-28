@@ -392,8 +392,8 @@ const Hero: React.FC<HeroProps> = ({
                   Contact Me
                 </motion.button>
                 <motion.a
-                  href="/src/assets/profile/resume.pdf"
-                  download="Abunesh_RP_Resume.pdf"
+                  href="/src/assets/profile/src/assets/profile/Abunesh_R_P_Resume.pdf"
+                  download="Abunesh_RP_src/assets/profile/Abunesh_R_P_Resume.pdf"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="hero-btn-secondary"
