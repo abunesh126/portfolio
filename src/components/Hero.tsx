@@ -392,15 +392,15 @@ const Hero: React.FC<HeroProps> = ({
                   Contact Me
                 </motion.button>
                 <motion.a
-                  href="/src/assets/profile/src/assets/profile/Abunesh_R_P_Resume.pdf"
-                  download="Abunesh_RP_src/assets/profile/Abunesh_R_P_Resume.pdf"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="hero-btn-secondary"
-                >
-                  <Terminal className="w-4 h-4" />
-                  Resume
-                </motion.a>
+  href="/src/assets/profile/Abunesh_R_P_Resume.pdf"
+  download="Abunesh_R_P_Resume.pdf"
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
+  className="hero-btn-secondary"
+>
+  <Terminal className="w-4 h-4" />
+  Resume
+</motion.a>
               </motion.div>
 
               {/* Social links with luxury styling */}
